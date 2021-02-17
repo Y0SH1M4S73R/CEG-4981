@@ -1,0 +1,15 @@
+- Use snake case for method and variable names (e.g. variable_name)
+- Method and variable names should describe their purpose (e.g. void do_thing(), int thing_count)
+- The above rule can be ignored for loop iterators (e.g. for(int i=0; i<loop_count; i++))
+- Use tabs for indentation
+- Place curly braces on their own lines.
+
+Example Code:
+
+void do_thing(int loop_count)
+{
+	for(int i=0; i<loop_count; i++)
+	{
+		do_other_thing(i);
+	}
+}
